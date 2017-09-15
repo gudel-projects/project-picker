@@ -1,0 +1,141 @@
+.app {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.loadingIndicator {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.pillButton {
+  display: flex;
+  cursor: default;
+  background-color: lightgray;
+  border-radius: 20px;
+  padding: 2px 5px;
+  user-select: none;
+}
+
+.pillButtonTitle {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.pillButtonValue {
+  margin-right: 5px;
+}
+
+.pillButtonClose {
+  background-color: gray;
+  border-radius: 20px;
+  width: 25px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.pillButtonClose:hover {
+  background-color: darkgray;
+}
+
+.header {
+  background-color: maroon;
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contents {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.projects {
+  flex-grow: 1;
+  overflow: auto;
+}
+
+.projectsHeader {
+  display: flex;
+  padding: 5px 0;
+}
+
+.projectsHeaderCount {
+  margin-right: 20px;
+  font-size: 1.25em;
+}
+
+.projectsHeaderQueryTermClear:hover {
+  background-color: lightgray;
+}
+
+.projectSummary {
+  background-color: papayawhip;
+  display: flex;
+  cursor: pointer;
+  border: 1px solid maroon;
+  border-radius: 2px;
+  user-select: none;
+}
+
+.projectSummary:hover {
+  background-color: lightgray;
+  font-weight: bold;
+}
+
+.projectDetails {
+  display: flex;
+  overflow: auto;
+}
+
+.projectDetailsContainer {
+  display: flex;
+}
+
+.searchbar {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.checkbox, label {
+  text-align: center;
+  display: block;
+  font-size: 0.65em;
+}
+
+.popover {
+  width: 300px;
+  max-width: 300px;
+}
+
+.filterSection {
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.filterSectionHeader {
+  display: flex;
+  padding: 2px 0;
+}
+
+.filterSectionLabel {
+  padding-right: 5px;
+  font-weight: bold;
+}
+
+.filterSectionValueClear {
+  padding: 2px;
+  cursor: pointer;
+  user-select: none;
+  font-size: smaller;
+  border-radius: 20px;
+  width: 25px;
+  text-align: center;
+}
+
+.filterSectionValueClear:hover {
+  background-color: lightgray;
+}
